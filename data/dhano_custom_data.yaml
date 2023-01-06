@@ -1,0 +1,10 @@
+
+train: ./data/dhano_data/train  # 118287 images
+val: ./data/dhano_data/val # 5000 images
+
+
+# number of classes
+nc: 4
+
+# class names
+names: ['Helmet','Alert! No Helmet', "Jacket", 'Alert! No Jacket']
