@@ -64,7 +64,7 @@ def plot_one_box(x, img, color=None, label=None, line_thickness=3):
     c1, c2 = (int(x[0]), int(x[1])), (int(x[2]), int(x[3]))
     cv2.rectangle(img, c1, c2, color, thickness=tl, lineType=cv2.LINE_AA)
     # X, y, w, h = int(x[0]), int(x[1]), int(x[2]), int(x[3])
-
+    # cv2.rectangle(img, c1, c2, color, thickness=tl, lineType=cv2.LINE_AA)
     # print(c1, c2)
     # sub_img = img[y:h, X:w]
     # img2 = np.full(sub_img.shape, color, np.uint8)
